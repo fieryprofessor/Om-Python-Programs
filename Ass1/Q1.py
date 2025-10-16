@@ -1,0 +1,1 @@
+# c. Python variables do not need to be declared before use.
