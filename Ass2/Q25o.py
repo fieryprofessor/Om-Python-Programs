@@ -1,6 +1,8 @@
-x = 65
-for i in range(1,8):
-    for j in range(1,i+1):
-        print(chr(x),end=" ")
-        x +=1
+for i in range(1,6):
+    for k in range(0,10-2*i):
+        print(end=" ")
+    for j in range(i,0,-1):
+        print(j,end=" ")
+    for l in range(2,i+1):
+        print(l,end=" ")
     print()
